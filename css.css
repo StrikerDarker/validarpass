@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+      background-color:rgb(217, 223, 218) ;
+  }
+.formulario{
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(187, 179, 179);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}  
+.boton{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+}
+.contenido{
+    padding: 20px;
+}
+.contenido input,textarea{
+    width: 100%;
+}
+.main{
+
+  margin-top: 100px;
+}
